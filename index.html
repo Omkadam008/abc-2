@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iOS Style Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calculator" role="application" aria-label="Calculator">
+    <div class="display" id="display" aria-live="polite" aria-atomic="true">0</div>
+
+    <div class="keys">
+      <button class="func" data-action="clear">AC</button>
+      <button class="func" data-action="sign">±</button>
+      <button class="func" data-action="percent">%</button>
+      <button class="op" data-op="/">÷</button>
+
+      <button>7</button><button>8</button><button>9</button>
+      <button class="op" data-op="*">×</button>
+
+      <button>4</button><button>5</button><button>6</button>
+      <button class="op" data-op="-">−</button>
+
+      <button>1</button><button>2</button><button>3</button>
+      <button class="op" data-op="+">+</button>
+
+      <button class="wide">0</button>
+      <button>.</button>
+      <button class="op" data-action="equals">=</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
