@@ -74,7 +74,3 @@ document.addEventListener('keydown', e => {
   if (e.key === '%') percent();
   if (e.key === '.') input('.');
 });
-<script>
-  document.getElementById("build-info").innerText =
-    "CI/CD Pipeline • " + new Date().toLocaleString();
-</script>

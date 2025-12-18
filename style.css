@@ -105,11 +105,3 @@ button:active {
   text-align: left;
   padding-left: 34px;
 }
-.deploy-banner {
-  text-align: center;
-  background: #111;
-  color: #0f0;
-  padding: 8px;
-  font-size: 0.85rem;
-  font-family: monospace;
-}
