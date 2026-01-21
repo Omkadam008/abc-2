@@ -23,7 +23,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Basic CI validation (professional touch)
+      # 2️⃣ Basic CI validation 
       - name: Validate project structure
         run: |
           echo "Checking required files..."
@@ -32,7 +32,7 @@ jobs:
           test -f script.js || (echo "script.js missing" && exit 1)
           echo "All required files are present."
 
-      # 3️⃣ Optional lint-style check (shows maturity)
+      # 3️⃣ Optional lint-style check 
       - name: Basic HTML sanity check
         run: |
           grep -qi "<html" index.html
